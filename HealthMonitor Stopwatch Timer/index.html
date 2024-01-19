@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitor Stopwatch</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;900&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-custom navbar-dark fixed-top" id="top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Health Monitor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Discover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href='#'>Profile</a>
+              </li>
+             </ul>
+          </div>
+        </div><br><br>
+      </nav>
+      <br>
+      <br><br>
+      <div class="container mt-5">
+        <h1 class="text-center">Health Monitor Stopwatch</h1>
+        <p class="custom-p, text-center">Welcome to our place,where fitness meets technology in the pursuit of a healthier and happier you!</p>
+        <br><br>
+        <div class="row text-center abt-dtl">
+          <div class="col-md-6 set-img">
+              <img src="./img/download-2.jpeg" width="400px" height="300px">
+          </div>
+          <div class="col-md-6">
+        <div id="timer" class="text-center mb-4">00:00:00</div>
+        <div id="buttons" class="text-center">
+            <button id="start" class="btn btn-primary">Start</button>
+            <button id="stop" class="btn btn-danger">Stop</button>
+            <button id="reset" class="btn btn-secondary">Reset</button>
+        </div>
+        </div>
+       
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container" id="about-us">
+        <div class="about-section">
+            <h2 class="text-center">About Us</h2><br>
+            <div class="row text-center abt-dtl">
+                <div class="col-mr-6 set-img">
+                  <video width="640" height="360" controls>
+                    <source src="./img/istockphoto-1269816444-640_adpp_is.mp4" type="video/mp4">
+                    </video>
+                    <br><br>
+                </div>
+                
+                <div class="col-mr-6">
+                    <p style="text-align: justify" class="pg-abt">Our Mission:
+                      At Health Monitor, our mission is to empower individuals on their journey to optimal health and fitness. We believe that everyone deserves access to user-friendly tools that inspire and facilitate a more active and balanced lifestyle.
+                      <p style="text-align: justify" >
+                      The Spark:
+                      The idea for this platform ignited when our founders, passionate about both technology and wellness, envisioned a space where cutting-edge digital solutions could seamlessly integrate with the timeless pursuit of a healthier life. We wanted to create more than just a stopwatch; we aimed to develop a holistic health companion.
+            </p>
+                    </div>
+        </div>
+    </div>
+<br><br><br>
+
+    <div class="container" id="pricing">
+      <div class="str-bs">
+          <h2 class="text-center">Discover</h2>
+          <div class="container-fluid">
+              <div class="container p-5">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card card1 h-100">
+                      <div class="card-body">
+                        <h5 style="text-align: center" class="card-title">Health Monitoring</h5>
+                        <div class="d-grid my-3">
+                          <br>
+                         <center> <a href="#"><button class="btn btn-outline-dark btn-block">Check here</button></a></center>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card card2 h-100">
+                      <div class="card-body">
+                        <h5 style="text-align: center" class="card-title">Goal Setting</h5>
+                       
+                        <br>
+                       
+                       
+                        <div class="d-grid my-3">
+                        <center> <a href="#"><button class="btn btn-outline-dark btn-block"> Set</button></a></center> 
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card card3 h-100">
+                      <div class="card-body">
+                        <h5 style="text-align: center" class="card-title">Health Tips and Articles</h5>
+                       
+                        <br>
+                    
+                        <div class="d-grid my-3">
+                        <center> <a href="#"><button class="btn btn-outline-dark btn-block">Click here to see</button></a></center> 
+                        </div>
+                  
+                      </div>
+                      </div>
+                  </div>
+              </div>    
+          </div>
+      </div>
+  </div>
+  </div>
+
+    
+    <div class="container">
+        <div class="contact-pg" id="contact">
+            <h2 class="text-center">Contact</h2>
+            <div class="container py-4">
+                <form id="contactForm">
+                  <div class="mb-3">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Email Address</label>
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                  </div>
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">Form submission successful!</div>
+                  </div>
+                  <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                  </div>
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start">
+        <div class="text-center pt-2 pb-1 lt-footer">
+          <p class="lt-footer">&copy; 2024 Harshada Gawade !! <a class="text-dark" href="https://github.com/e-lyte"></a></p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
+</html>
